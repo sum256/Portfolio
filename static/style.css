@@ -60,19 +60,23 @@ body {
     padding: 0 1rem;
 }
 
-.aboutMeTitle {
+.about {
+    margin: 2rem;
+    padding: auto;
+}
+.Title {
     display: flex;
     justify-content: left;
     text-align: left;
-    line-height: 1.5rem;
+    line-height: 1.0rem;
 }
 
-.aboutMeTitle h2 {
-    margin: 0 2rem;
+.Title h2 {
+    margin:0;
     font-size: 5rem;
 }
 
-.aboutMeTitle p {
+.Title p {
     margin: 0 2rem;
 }
 
@@ -93,3 +97,13 @@ body {
 .void {
     margin: 2rem;
 }
+.container hr {
+    border: 0;
+    height: 3px;
+    margin: 4rem 0rem;
+}
+.contest img {
+    width: 25%;
+    margin-top: 2rem;
+}
+
