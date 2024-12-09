@@ -10,32 +10,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=M+PLUS+Rounded+1c&family=Roboto&family=Zen+Old+Mincho&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="../static/style.css">
     <title>Portfolio-Index</title>
 </head>
-<body>
-    <header>
-        <ul>
+<header>
+    <a href="index.html"><img src="../static/icon.png" alt="icon"></a>
+    <nav class="nav">
+        <ul class="nav-menu">
             <li>
-                <a href="/">Home</a>
+                <a href="#About">About</a>
             </li>
             <li>
-                <a href="#contests">Contests</a>
+                <a href="#works">Works</a>
             </li>
             <li>
                 <a href="/skill">SKILL</a>
             </li>
             <li>
-                <a href="/results">Results</a>
-            </li>
-            <li>
                 <a href="#Contact">Contact</a>
             </li>
         </ul>
-    </header>
+    </nav>
+</header>
+<body>
+    <!-- works -->
     <div class="container">
-        <div class="contests" id="contests">
-            <h2>Contests</h2>
+        <div class="about" id="About">
+            <div class="aboutMeTitle">
+                <h2>About</h2>
+                <p>私について</p>
+            </div>
+            <div class="void"></div>
+            <div class="aboutMe">
+                <img src="../static/myface.jpg" alt="顔写真">
+                <div class=" void"></div>
+                <div class="aboutMeText">
+                    <p>愛知工業大学情報学部の学部3年生。</p>
+                    <p>ハッカソンを機にプログラミングとチーム開発の楽しさに気づき猛勉強中</p>
+            </div>
+
+        </div>
+        <div class="works" id="works">
+            <h2>Works</h2>
             <div class="contest">
                 <img src="../static/hackAich2024.jpeg" alt="hackAichi">
                 <a href="https://jellyware.jp/hackaichi/">
@@ -48,6 +64,15 @@
                 <a href="https://alcon.itlab.org/">
                     <p>外観検査アルゴリズムコンテスト</p>
                 </a>
+            </div>
+        </div>
+
+        <!-- Skill -->
+        <div class="skill" id="skill">
+            <h2>SKILLs</h2>
+            <div>
+                <h3>言語</h3>
+                <p>Python,HTML,CSS,Javascript,PHP</p>
             </div>
         </div>
     </div>
