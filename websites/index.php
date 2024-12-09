@@ -20,6 +20,9 @@
                 <a href="/">Home</a>
             </li>
             <li>
+                <a href="#contests">Contests</a>
+            </li>
+            <li>
                 <a href="/skill">SKILL</a>
             </li>
             <li>
@@ -31,7 +34,22 @@
         </ul>
     </header>
     <div class="container">
-        
+        <div class="contests" id="contests">
+            <h2>Contests</h2>
+            <div class="contest">
+                <img src="../static/hackAich2024.jpeg" alt="hackAichi">
+                <a href="https://jellyware.jp/hackaichi/">
+                    <p>HackAichi2024+</p>
+                </a><br>
+                <p>企業賞受賞</p>
+            </div>
+            <div class="contest">
+                <img src="../static/alcon.png" alt="外観検査アルゴリズムコンテスト">
+                <a href="https://alcon.itlab.org/">
+                    <p>外観検査アルゴリズムコンテスト</p>
+                </a>
+            </div>
+        </div>
     </div>
     <footer id="Contact">
         <p>電話:080-8868-2598</p>
